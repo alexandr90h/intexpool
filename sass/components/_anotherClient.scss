@@ -1,0 +1,18 @@
+.main-conteiner-another-client {
+  a {
+    display: flex;
+    flex-wrap: wrap;
+    &::after {
+      display: block;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      width: 100%;
+      content: " ";
+      height: 1px;
+      background-color: #c4c4c4;
+    }
+  }
+  form {
+    display: none;
+  }
+}
